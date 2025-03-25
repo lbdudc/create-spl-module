@@ -1,0 +1,35 @@
+{
+    "name": "create-spl-module",
+    "version": "0.0.1",
+    "homepage": "https://github.com/lbdudc/create-spl-module#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lbdudc/create-spl-module.git"
+    },
+    "keywords": [
+        "spl"
+    ],
+    "type": "module",
+    "description": "Create SPL modules with no build configuration.",
+    "license": "MIT",
+    "engines": {
+        "node": ">=20"
+    },
+    "bin": {
+        "create-spl-module": "./index.js"
+    },
+    "scripts": {
+        "test": "cross-env FORCE_COLOR=true jest"
+    },
+    "dependencies": {
+        "cross-spawn": "^7.0.3",
+        "kolorist": "^1.8.0",
+        "minimist": "^1.2.8",
+        "prompts": "^2.4.2",
+        "semver": "^7.3.5"
+    },
+    "author": {
+        "name": "Victor Lamas",
+        "email": "victor.lamas@udc.es"
+    }
+}
